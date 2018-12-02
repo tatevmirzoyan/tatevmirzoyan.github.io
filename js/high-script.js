@@ -24,7 +24,7 @@ var chart = Highcharts.chart('container', {
 
     chart: {
         type: 'column',
-        height: 600,
+        height: 500,
         // color: '#ffffff',
         backgroundColor: "#111111",
         plotBorderColor: '#FF0000',
@@ -34,7 +34,7 @@ var chart = Highcharts.chart('container', {
     },
 
     xAxis: {
-        categories: ['HTML5', 'CSS3', 'Bootstrap4', 'JavaScript', 'JQuery', 'VueJS', 'Angular1', 'PHP', 'MySQL', 'Laravel'],
+        categories: ['HTML5', 'CSS3', 'Bootstrap4', 'JavaScript', 'JQuery', 'PHP', 'MySQL', 'Laravel'],
         labels: {
             style: {
                 color: 'white',
@@ -106,13 +106,12 @@ var chart = Highcharts.chart('container', {
     },
 
 
-    colors: ['#E44D26', '#1E88DC', '#563D7C', '#63A814', '#183555',
-    '#42B883', '#B63032', '#6181B6', '#cccccc', '#FA503A'],
+    colors: ['#E44D26', '#1E88DC', '#563D7C', '#63A814', '#183555', '#6181B6', '#cccccc', '#FA503A'],
 
     series: [{
         type: 'column',
         colorByPoint: true,
-        data: [95, 95, 95, 90, 90, 35, 30, 90, 85, 85],
+        data: [90, 80, 70, 70, 80, 80, 75, 80],
         showInLegend: false,
     }],
 
