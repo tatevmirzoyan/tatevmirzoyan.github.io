@@ -11,7 +11,7 @@ Math.easeOutBounce = function (pos) {
     return (7.5625 * (pos -= (2.625 / 2.75)) * pos + 0.984375);
 };
 
-var chart = Highcharts.chart('container', {
+var chart = Highcharts.chart('languages', {
 
     title: {
         text: 'Languages',
@@ -24,7 +24,7 @@ var chart = Highcharts.chart('container', {
 
     chart: {
         type: 'column',
-        height: 450,
+        height: 500,
         // color: '#ffffff',
         backgroundColor: "#111111",
         plotBorderColor: '#FF0000',
@@ -111,7 +111,7 @@ var chart = Highcharts.chart('container', {
     series: [{
         type: 'column',
         colorByPoint: true,
-        data: [95, 80, 70, 70, 80, 80, 75, 80],
+        data: [90, 80, 70, 70, 80, 80, 75, 80],
         showInLegend: false,
     }],
 

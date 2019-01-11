@@ -90,9 +90,8 @@ header{
 
 .about_me{
 	width: 30%;
-	padding: 10px;	
+	/*padding: 10px;	*/
 	/*border: 1px solid #ff214f;*/
-	border: 1px solid #ff214f;
 	border-radius: 10px;
 	margin-bottom: 20px;
 	min-width: 200px;
