@@ -12,6 +12,11 @@ body{
 
 
 /* Globals */
+u{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
 a.a{
 	color: #ff214f;
 }
