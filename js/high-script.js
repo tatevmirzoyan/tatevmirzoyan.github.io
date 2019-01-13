@@ -14,7 +14,7 @@ Math.easeOutBounce = function (pos) {
 var chart = Highcharts.chart('container', {
 
     title: {
-        text: 'Languages',
+        text: '',
         style: {
             fontWeight: 'bold',
             fontSize: '20px',
@@ -48,7 +48,7 @@ var chart = Highcharts.chart('container', {
 
     yAxis: {
         title: {
-            text: 'Skills percent',
+            text: '',
 
             style: {
                 color: 'white',
