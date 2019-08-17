@@ -34,7 +34,7 @@ var chart = Highcharts.chart('container', {
     },
 
     xAxis: {
-        categories: ['HTML5', 'CSS3', 'Bootstrap4', 'JavaScript', 'JQuery', 'PHP', 'MySQL', 'Laravel'],
+        categories: ['HTML5', 'CSS3', 'Bootstrap4', 'JavaScript', 'JQuery', 'Vue.js', 'PHP', 'MySQL', 'Laravel'],
         labels: {
             style: {
                 color: 'white',
@@ -111,7 +111,7 @@ var chart = Highcharts.chart('container', {
     series: [{
         type: 'column',
         colorByPoint: true,
-        data: [95, 80, 70, 70, 80, 80, 75, 80],
+        data: [95, 80, 70, 70, 75, 80, 80, 75, 80],
         showInLegend: false,
     }],
 
